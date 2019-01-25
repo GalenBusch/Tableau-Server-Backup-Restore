@@ -6,10 +6,10 @@ $PurgeOldFiles 				= $True
 $ShellVerbose  				= $True
 $EmailOnlyOnFailure         = $False
 #SMTP Setup
-$smtp_server 				= "mx.seattlecca.org"
+$smtp_server 				= "mx.yourserver.com"
 $smtp_port 					= 25
-$mailfrom 					= "<TableauAdmin@seattlecca.org>"  
-$DistList 					= get-content "D:\Distribution List for Tableau Processes.txt"
+$mailfrom 					= "<TableauAdmin@yourcompany.org>"  
+$DistList 					= get-content "D:\Distribution List for Tableau Processes.txt" #either hardcode email addresses, or reference them from a file.
 $EmailVal					= "D:\Email\EmailVal.txt"
 $EmailDev 					= "D:\Email\EmailDev.txt"
 #Globals
